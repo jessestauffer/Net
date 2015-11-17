@@ -7,13 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DB428A161BF65208004CB9F7 /* PhotoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB428A151BF65208004CB9F7 /* PhotoCell.swift */; };
+		DB428A181BF661E4004CB9F7 /* Users.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB428A171BF661E4004CB9F7 /* Users.swift */; };
+		DBB6D0371BF2D4C30000AFD0 /* Intro.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBB6D0361BF2D4C30000AFD0 /* Intro.swift */; };
 		DBEA008A1BF2C5B50048AB06 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBEA00891BF2C5B50048AB06 /* AppDelegate.swift */; };
-		DBEA008C1BF2C5B50048AB06 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBEA008B1BF2C5B50048AB06 /* ViewController.swift */; };
+		DBEA008C1BF2C5B50048AB06 /* Chat.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBEA008B1BF2C5B50048AB06 /* Chat.swift */; };
 		DBEA008F1BF2C5B50048AB06 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DBEA008D1BF2C5B50048AB06 /* Main.storyboard */; };
 		DBEA00911BF2C5B50048AB06 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DBEA00901BF2C5B50048AB06 /* Assets.xcassets */; };
 		DBEA00941BF2C5B50048AB06 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DBEA00921BF2C5B50048AB06 /* LaunchScreen.storyboard */; };
 		DBEA009F1BF2C5B50048AB06 /* NetTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBEA009E1BF2C5B50048AB06 /* NetTests.swift */; };
 		DBEA00AA1BF2C5B50048AB06 /* NetUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBEA00A91BF2C5B50048AB06 /* NetUITests.swift */; };
+		DBEA00B81BF2C6A30048AB06 /* P2PKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DBEA00B71BF2C6A30048AB06 /* P2PKit.framework */; };
+		DBEA00BA1BF2C6B30048AB06 /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DBEA00B91BF2C6B30048AB06 /* CoreBluetooth.framework */; };
+		DBEA00BC1BF2C6B80048AB06 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DBEA00BB1BF2C6B80048AB06 /* CoreLocation.framework */; };
+		DBEA00BE1BF2C6BF0048AB06 /* libicucore.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = DBEA00BD1BF2C6BF0048AB06 /* libicucore.tbd */; };
+		DBEA00C01BF2C6C30048AB06 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DBEA00BF1BF2C6C30048AB06 /* CFNetwork.framework */; };
+		DBEA00C21BF2C6C90048AB06 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DBEA00C11BF2C6C90048AB06 /* Security.framework */; };
+		DBEA00C41BF2C6CE0048AB06 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DBEA00C31BF2C6CE0048AB06 /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,9 +44,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		DB428A151BF65208004CB9F7 /* PhotoCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoCell.swift; sourceTree = "<group>"; };
+		DB428A171BF661E4004CB9F7 /* Users.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Users.swift; sourceTree = "<group>"; };
+		DBB6D0361BF2D4C30000AFD0 /* Intro.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Intro.swift; sourceTree = "<group>"; };
 		DBEA00861BF2C5B50048AB06 /* Net.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Net.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DBEA00891BF2C5B50048AB06 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		DBEA008B1BF2C5B50048AB06 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DBEA008B1BF2C5B50048AB06 /* Chat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chat.swift; sourceTree = "<group>"; };
 		DBEA008E1BF2C5B50048AB06 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		DBEA00901BF2C5B50048AB06 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DBEA00931BF2C5B50048AB06 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +60,14 @@
 		DBEA00A51BF2C5B50048AB06 /* NetUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NetUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DBEA00A91BF2C5B50048AB06 /* NetUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetUITests.swift; sourceTree = "<group>"; };
 		DBEA00AB1BF2C5B50048AB06 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DBEA00B71BF2C6A30048AB06 /* P2PKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = P2PKit.framework; sourceTree = "<group>"; };
+		DBEA00B91BF2C6B30048AB06 /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
+		DBEA00BB1BF2C6B80048AB06 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		DBEA00BD1BF2C6BF0048AB06 /* libicucore.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libicucore.tbd; path = usr/lib/libicucore.tbd; sourceTree = SDKROOT; };
+		DBEA00BF1BF2C6C30048AB06 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		DBEA00C11BF2C6C90048AB06 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		DBEA00C31BF2C6CE0048AB06 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		DBEA00C51BF2C7070048AB06 /* BridgingFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BridgingFile.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +75,13 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DBEA00C41BF2C6CE0048AB06 /* Foundation.framework in Frameworks */,
+				DBEA00C21BF2C6C90048AB06 /* Security.framework in Frameworks */,
+				DBEA00C01BF2C6C30048AB06 /* CFNetwork.framework in Frameworks */,
+				DBEA00BE1BF2C6BF0048AB06 /* libicucore.tbd in Frameworks */,
+				DBEA00BC1BF2C6B80048AB06 /* CoreLocation.framework in Frameworks */,
+				DBEA00BA1BF2C6B30048AB06 /* CoreBluetooth.framework in Frameworks */,
+				DBEA00B81BF2C6A30048AB06 /* P2PKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,9 +102,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		DBB6D0351BF2C9F30000AFD0 /* Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				DBEA00BD1BF2C6BF0048AB06 /* libicucore.tbd */,
+				DBEA00BB1BF2C6B80048AB06 /* CoreLocation.framework */,
+				DBEA00B91BF2C6B30048AB06 /* CoreBluetooth.framework */,
+				DBEA00BF1BF2C6C30048AB06 /* CFNetwork.framework */,
+				DBEA00C11BF2C6C90048AB06 /* Security.framework */,
+				DBEA00C31BF2C6CE0048AB06 /* Foundation.framework */,
+			);
+			name = Libraries;
+			sourceTree = "<group>";
+		};
 		DBEA007D1BF2C5B40048AB06 = {
 			isa = PBXGroup;
 			children = (
+				DBB6D0351BF2C9F30000AFD0 /* Libraries */,
 				DBEA00881BF2C5B50048AB06 /* Net */,
 				DBEA009D1BF2C5B50048AB06 /* NetTests */,
 				DBEA00A81BF2C5B50048AB06 /* NetUITests */,
@@ -98,8 +140,13 @@
 			isa = PBXGroup;
 			children = (
 				DBEA00891BF2C5B50048AB06 /* AppDelegate.swift */,
-				DBEA008B1BF2C5B50048AB06 /* ViewController.swift */,
+				DBB6D0361BF2D4C30000AFD0 /* Intro.swift */,
+				DBEA008B1BF2C5B50048AB06 /* Chat.swift */,
+				DB428A151BF65208004CB9F7 /* PhotoCell.swift */,
+				DB428A171BF661E4004CB9F7 /* Users.swift */,
+				DBEA00C51BF2C7070048AB06 /* BridgingFile.h */,
 				DBEA008D1BF2C5B50048AB06 /* Main.storyboard */,
+				DBEA00B71BF2C6A30048AB06 /* P2PKit.framework */,
 				DBEA00901BF2C5B50048AB06 /* Assets.xcassets */,
 				DBEA00921BF2C5B50048AB06 /* LaunchScreen.storyboard */,
 				DBEA00951BF2C5B50048AB06 /* Info.plist */,
@@ -256,8 +303,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DBEA008C1BF2C5B50048AB06 /* ViewController.swift in Sources */,
+				DB428A161BF65208004CB9F7 /* PhotoCell.swift in Sources */,
+				DBEA008C1BF2C5B50048AB06 /* Chat.swift in Sources */,
+				DB428A181BF661E4004CB9F7 /* Users.swift in Sources */,
 				DBEA008A1BF2C5B50048AB06 /* AppDelegate.swift in Sources */,
+				DBB6D0371BF2D4C30000AFD0 /* Intro.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -397,10 +447,17 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Net",
+				);
 				INFOPLIST_FILE = Net/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.jessestauffer.Net;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = Net/BridgingFile.h;
 			};
 			name = Debug;
 		};
@@ -408,10 +465,17 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Net",
+				);
 				INFOPLIST_FILE = Net/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.jessestauffer.Net;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = Net/BridgingFile.h;
 			};
 			name = Release;
 		};
@@ -482,6 +546,7 @@
 				DBEA00B01BF2C5B50048AB06 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DBEA00B11BF2C5B50048AB06 /* Build configuration list for PBXNativeTarget "NetTests" */ = {
 			isa = XCConfigurationList;
@@ -490,6 +555,7 @@
 				DBEA00B31BF2C5B50048AB06 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DBEA00B41BF2C5B50048AB06 /* Build configuration list for PBXNativeTarget "NetUITests" */ = {
 			isa = XCConfigurationList;
@@ -498,6 +564,7 @@
 				DBEA00B61BF2C5B50048AB06 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

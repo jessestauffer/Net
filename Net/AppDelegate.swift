@@ -9,13 +9,17 @@
 import UIKit
 
 @UIApplicationMain
-class AppDelegate: UIResponder, UIApplicationDelegate {
+class AppDelegate: UIResponder, UIApplicationDelegate, PPKControllerDelegate {
 
     var window: UIWindow?
 
-
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
         // Override point for customization after application launch.
+        // Custom Appearances
+        UINavigationBar.appearance().barTintColor = UIColor(red: 0.05, green: 0.15, blue: 0.25, alpha: 1.0)
+        UINavigationBar.appearance().titleTextAttributes = [NSForegroundColorAttributeName: UIColor.whiteColor()]
+        UITableView.appearance().tableFooterView = UIView(frame: CGRectMake(0, 0, 0, 0))
+        UIBarButtonItem.appearance().setTitleTextAttributes([NSForegroundColorAttributeName: UIColor.whiteColor()], forState: UIControlState.Normal)
         return true
     }
 
@@ -40,7 +44,5 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func applicationWillTerminate(application: UIApplication) {
         // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
     }
-
-
 }
 
