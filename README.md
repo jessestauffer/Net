@@ -1,14 +1,14 @@
 # NET - MESH NETWORKING APP
 
-I CREATED THE NET APP USING THE P2PKIT FRAMEWORK FROM UEPAA. TO BEGIN, SIGN UP FOR P2PKIT TO RECEIVE AN API KEY AT p2pkit.io
+I created the net app using the p2pkit framework from UEPAA. To begin, sign up for p2pkit to receive an API key at p2pkit.io
 
-THIS IMPLEMENTATION IS FOR iOS (BUT P2PKIT ALSO SUPPORTS ANDROID)
-I WROTE THE APP ENTIRELY IN APPLE’S SWIFT PROGRAMMING LANGUAGE, AS OBJECTIVE-C IS BECOMING MORE AND MORE OUTDATED
+This implementation is for iOS (but p2pkit also supports Android)
+I wrote the app entirely in Apple’s Swift programming language, as Objective-C is becoming more and more outdated
 
-TO BEGIN, OPEN `Chat.swift` AND PASTE YOUR API KEY INTO THE CONSTANT AT THE TOP LABELED `APIKey`. AFTER DOING THIS, YOU MAY BUILD AND RUN THE PROJECT. MAKE SURE YOU HAVE BLUETOOTH ENABLED ON YOUR DEVICE AND ALSO HAVE ANOTHER NEARBY DEVICE TO TEST THE APPLICATION ON.
+To begin, open `chat.swift` and paste your api key into the constant at the top labeled `APIKEY`. After doing this, you may build and run the project. Make sure you have bluetooth enabled on your device and also have another nearby device to test the application on.
 
-ONCE THE APP LAUNCHES YOU WILL BE ABLE TO ENTER A CHAT USERNAME. THIS CAN BE ANYTHING AND IS USED TO IDENTIFY YOURSELF TO OTHER USERS. AFTER TAPPING GET STARTED YOU WILL BE INSTANTLY CONNECTED WITH OTHER USERS RUNNING THE APP. YOU CAN THEN PROCEED TO SEND TEXT AND PICTURE MESSAGES TO NEARBY PEERS. TO SEE WHO YOU ARE CHATTING WITH, TAP ON THE USERS BUTTON IN THE TOP LEFT OF THE NAVIGATION BAR.
+Once the app launches you will be able to enter a chat username. This can be anything and is used to identify yourself to other users. After tapping get started you will be instantly connected with other users running the app. You can then proceed to send text and picture messages to nearby peers. To see who you are chatting with, tap on the users button in the top left of the navigation bar.
 
-THE API ALLOWS YOU TO SEND TEXT MESSAGES TO OTHERS, HOWEVER, I WENT AHEAD AND IMPLEMENTED PHOTO MESSAGES AS WELL. I DID THIS USING CUSTOM DATA DICTIONARIES THAT ARE ARCHIVED AND UNARCHIVED WHEN DELIVERING AND RECEIVING A MESSAGE. YOU COULD ALSO IMPLEMENT AUDIO / VIDEO MESSAGES IN THE SAME MANNER.
+The api allows you to send text messages to others, however, I went ahead and implemented photo messages as well. I did this using custom data dictionaries that are archived and unarchived when delivering and receiving a message. You could also implement audio / video messages in the same manner.
 
-IF YOU HAVE ANY QUESTIONS, LET ME KNOW. I AM HAPPY TO HELP WITH THE IMPLEMENTATION AND TRANSFORMING THE API TO FIT YOUR NEEDS.
+If you have any questions, let me know. I am happy to help with the implementation and transforming the API to fit your needs.
