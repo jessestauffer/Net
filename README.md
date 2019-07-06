@@ -1,4 +1,4 @@
-# NET - MESH NETWORKING APP
+# Net - Mesh Networking App
 
 I created the net app using the p2pkit framework from UEPAA. To begin, sign up for p2pkit to receive an API key at p2pkit.io
 
